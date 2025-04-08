@@ -1,15 +1,13 @@
 import pandas as pd
 from datetime import datetime
 import os
-excel_file = r"C:\Users\חדש\PycharmProjects\PythonProject\time_series.xlsx"
-csv_file = r"C:\Users\חדש\PycharmProjects\PythonProject\time_series.csv"
-output_dir = r"C:\Users\חדש\PycharmProjects\PythonProject\split_files"
-final_output = r"C:\Users\חדש\PycharmProjects\PythonProject\final_aggregated.csv"
+excel_file = "time_series.xlsx"
+csv_file = "time_series.csv"
+parquet_file = "time_series.parquet"
+output_dir = "split_files" 
+final_output = "final_aggregated.csv"
+finalMerge_file = "final_merged_output.csv"
 date_column = "timestamp"
-parquet_file=r"C:\Users\חדש\Downloads\time_series.parquet"
-finalMerge_file = r"C:\Users\חדש\PycharmProjects\PythonProject\final_merged_output.csv"
-
-
 # ממירה קובץ Excel לקובץ CSV אם הוא לא קיים כבר
 def convert_excel_to_csv(excel_file_path, csv_file_path):
         if not os.path.exists(csv_file_path):
