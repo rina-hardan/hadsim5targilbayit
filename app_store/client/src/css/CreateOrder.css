@@ -1,0 +1,66 @@
+.create-order-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  background: #aa4caf;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  color: #aa4caf;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;  /* מאפשר למוצרים לשבור שורות אם אין מקום */
+  justify-content: center;  /* מיישר את המוצרים באמצע */
+  gap: 20px;  /* רווח בין המוצרים */
+  margin-top: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.select-button {
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.input-quantity {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100px;
+}
+
+.submit-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

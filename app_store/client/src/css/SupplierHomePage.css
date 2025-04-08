@@ -1,0 +1,32 @@
+.supplier-orders-container {
+  background-image: url('/images/shop-background.jpg'); /* רקע דמוי חנות */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 50px;
+  text-align: center;
+  color: #333;
+  margin-left: 450px; 
+}
+
+.supplier-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.supplier-buttons button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+.supplier-buttons button:hover {
+  background-color: #aa4caf;
+  color: white;
+}

@@ -1,0 +1,37 @@
+.add-supplier-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  direction: rtl;
+  font-family: 'Arial';
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* כאן הוספתי את ה-shadow */
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-input input {
+  flex: 1;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}

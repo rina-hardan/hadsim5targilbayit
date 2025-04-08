@@ -1,0 +1,33 @@
+.view-orders-container {
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .orders-table {
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .orders-table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .orders-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .no-orders {
+    margin-top: 20px;
+    color: gray;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  

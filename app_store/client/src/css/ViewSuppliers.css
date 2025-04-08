@@ -1,0 +1,12 @@
+
+
+.suppliers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* ליישר את הספקים באמצע */
+    gap: 20px; /* רווח בין כרטיסים */
+}
+
+.suppliers-container .supplier-card {
+    width: 300px; /* הגדרת רוחב כרטיס */
+}

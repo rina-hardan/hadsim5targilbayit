@@ -1,0 +1,48 @@
+.supplier-card {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+  direction: rtl;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ✨ הוספתי shadow */
+  transition: box-shadow 0.3s ease; /* מעבר חלק */
+}
+
+.supplier-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* קצת יותר חזק בהובר */
+}
+  
+  .supplier-card h3 {
+    margin-top: 0;
+  }
+  
+  .product-select-container {
+    margin-top: 10px;
+  }
+  
+  .product-select-container label {
+    font-weight: bold;
+  }
+  
+  .product-select-container select {
+    margin-top: 5px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .no-products-message {
+    margin-top: 10px;
+    color: gray;
+  }
+  
+  .create-order-button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #aa4caf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
