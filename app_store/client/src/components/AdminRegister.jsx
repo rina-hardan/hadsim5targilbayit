@@ -26,8 +26,10 @@ const AdminRegister = () => {
         },
       });
 
+      localStorage.setItem('adminId', data.adminId);
       setMessage(data.message || 'Your registration was successful.');
       navigate('/admin/homePage');
+
     } catch (errMessage) {
       setMessage(errMessage);
     }

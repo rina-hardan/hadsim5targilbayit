@@ -31,7 +31,6 @@ export default function ViewSuppliers() {
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <button onClick={() => navigate('/admin/homePage')}>🏠 חזרה לדף הבית</button>
       <h1>All Suppliers</h1>
-      <h2>Admin ID: {adminId}</h2>
 
       {message && <p style={{ color: 'red' }}>{message}</p>}
 

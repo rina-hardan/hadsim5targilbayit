@@ -1,15 +1,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import  { useEffect } from 'react';
 import '../css/UserTypeSelector.css'; 
-useEffect(() => {
-  localStorage.clear();
-  window.history.replaceState(null, "", window.location.href);
-  }, []);
 
 const UserTypeSelector = () => {
   const navigate = useNavigate();
-
+  localStorage.clear();
   const handleSelectUserType = (type) => {
     navigate(`/login/${type === 'admin' ? 'admin' : 'supplier'}`);
   };

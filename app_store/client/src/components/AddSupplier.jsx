@@ -45,7 +45,7 @@ const AddSupplier = () => {
             !isNaN(parseInt(p.min_quantity))
           );
 
-          await sendRequest({
+          const data=  await sendRequest({
             method: 'POST',
             url: '/suppliers/register',
             body: {
@@ -58,6 +58,7 @@ const AddSupplier = () => {
             }
           });                   
       alert('הספק נרשם בהצלחה!');
+       localStorage.setItem('supplierId', data.supplierId);
       navigate('/suppliers/homePage');
     } catch (error) {
       alert('שגיאה בהרשמה: ' + error.message);
